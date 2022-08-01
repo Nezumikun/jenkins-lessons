@@ -17,7 +17,7 @@ pipeline {
         stage('Checkout') {
             steps{
                 git branch: 'main',
-                    url: 'https://github.com/nezumikun/docker-lessons.git'        
+                    url: 'https://github.com/bakavets/docker-lessons.git'        
                 }
         }
         stage('Test') {
